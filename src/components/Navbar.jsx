@@ -9,14 +9,24 @@ export default function Navbar() {
   </Link>
 
   <div className="navbar-links">
-    <Link to="/" className="navbar-link">Home</Link>
-    <Link to="/checkout" className="navbar-link">Cart</Link>
+    <Link to="/" className="navbar-link">
+      Home
+    </Link>
+
+    <Link to="/checkout" className="navbar-link">
+      Cart
+    </Link>
   </div>
 
   <div className="navbar-auth">
     <div className="navbar-auth-links">
-      <Link to="/auth" className="btn btn-secondary btn-small">Login</Link>
-      <Link to="/auth" className="btn btn-primary btn-small">Signup</Link>
+      <Link to="/auth" className="btn btn-secondary btn-small">
+        Login
+      </Link>
+      
+      <Link to="/auth" className="btn btn-primary btn-small">
+        Signup
+      </Link>
     </div>
   </div>
 </div>
